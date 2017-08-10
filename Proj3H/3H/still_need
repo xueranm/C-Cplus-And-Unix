@@ -1,0 +1,2 @@
+ls */pass | cut -d'/' -f1 > already_passed
+diff already_passed valid_list | grep ">"

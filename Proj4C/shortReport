@@ -1,0 +1,7 @@
+Time of different size:
+250x250: 0.002908 seconds
+500x500: 0.011136 seconds
+1000x1000: 0.046252 seconds
+2000x2000: 0.207135 seconds
+
+I think almost the bigger one's time is 4 times of the smaller one except for the the first one and second one, they changed a lot. I think the time gives me some idea about optimizations. I didn't consider too much about optimizations during writing my code, however, when I see these times I think I can do better. Because the jumping from one size to bigger size is a little drastic, it shows that as the image becomes larger and larger, timing will maybe increase too fast to lead to some problems.

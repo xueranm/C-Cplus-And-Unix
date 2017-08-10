@@ -1,0 +1,7 @@
+#!/bin/bash
+
+list=$(cat valid_list)
+
+for i in $list ; do
+   ./generate_one $i
+done
